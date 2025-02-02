@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSW GRIET</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #003366;
+            padding: 10px 20px;
+            color: white;
+        }
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .navbar .menu a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            padding: 50px;
+            text-align: center;
+        }
+        .about, .events, .vision-mission {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .event-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .event-gallery img {
+            width: 200px;
+            height: 150px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">FSW GRIET</div>
+        <div class="menu">
+            <a href="#about">About</a>
+            <a href="#events">Past Events</a>
+            <a href="#vision">Vision & Mission</a>
+        </div>
+    </nav>
+    
+    <div id="about" class="section about">
+        <h2>About FSW GRIET</h2>
+        <p>FSW GRIET is an initiative to foster student development, innovation, and collaboration.</p>
+    </div>
+
+    <div id="events" class="section events">
+        <h2>Past Events</h2>
+        <p>Here are some of our past events that have inspired students and faculty alike.</p>
+        <div class="event-gallery">
+            <img src="e1.jpg" alt="Event 1">
+            <img src="e2.jpg" alt="Event 2">
+            <img src="e3.jpg" alt="Event 3">
+            <img src="e4.jpg" alt="Event 4">
+        </div>
+    </div>
+
+    <div id="vision" class="section vision-mission">
+        <h2>Vision & Mission</h2>
+        <p>Our vision is to create a platform for students to explore, learn, and innovate.</p>
+    </div>
+</body>
+</html>
